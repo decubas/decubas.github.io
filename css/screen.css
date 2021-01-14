@@ -858,9 +858,9 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 38px;
+    height: 70px;
     padding: 1px 0 5px 0;
-    width: auto;
+    width: 70;
 }
 
 .menu-button {
