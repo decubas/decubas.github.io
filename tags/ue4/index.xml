@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ue4 on Víctor Ávila</title>
+    <link>https://avilapa.github.io/tags/ue4/</link>
+    <description>Recent content in Ue4 on Víctor Ávila</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2018</copyright>
+    <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avilapa.github.io/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Framerate independent physics in UE4</title>
+      <link>https://avilapa.github.io/post/framerate-independent-physics-in-ue4/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avilapa.github.io/post/framerate-independent-physics-in-ue4/</guid>
+      <description>If you are building a physics based game/application and you have plans of it running in a wide range of computers, you need to fix your physics timestep. Index  Understanding the problem Solving the problem  Configuring substepping Setting up substepping in code Handling substep physics   Understanding the problem Your game may be running fine at 120 fps in your computer, but lower-end computers out there waiting for your game to come out may not be able to even reach 60 fps.</description>
+    </item>
+    
+  </channel>
+</rss>
