@@ -1,440 +1,300 @@
 ﻿<!DOCTYPE html>
 <html lang="en-us">
 <head>
-<link rel="shortcut icon" href="http://www.iconj.com/ico/w/o/woki3ujevy.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://www.iconj.com/ico/w/o/woki3ujevy.ico" type="image/x-icon" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    
-    
-        
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:image" content="/images/cover-render-engine.png"/>
-    
 
 
 
-<meta name="twitter:title" content="Custom OpenGL C&#43;&#43; Engine"/>
-<meta name="twitter:description" content="Rendering engine for HND final year&#39;s graphics programming subject."/>
-<meta name="twitter:site" content="@decubas"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/images/cover-render-engine.png" />
 
 
 
-  	<meta property="og:title" content="Custom OpenGL C&#43;&#43; Engine &middot; Víctor Ávila" />
-  	<meta property="og:site_name" content="Alvaro De Cubas" />
-  	<meta property="og:url" content="https://decubas.github.io/CoffeeEngine/" />
 
-    
-       <meta property="og:image" content="/images/cover-render-engine.png"/>
-    
+    <meta name="twitter:title" content="Custom OpenGL C&#43;&#43; Engine" />
+    <meta name="twitter:description" content="Rendering engine for HND final year&#39;s graphics programming subject." />
+    <meta name="twitter:site" content="@decubas" />
 
-    
+
+
+    <meta property="og:title" content="Custom OpenGL C&#43;&#43; Engine &middot; Víctor Ávila" />
+    <meta property="og:site_name" content="Alvaro De Cubas" />
+    <meta property="og:url" content="https://decubas.github.io/CoffeeEngine/" />
+
+
+    <meta property="og:image" content="/images/cover-render-engine.png" />
+
+
+
     <meta property="og:description" content="Rendering engine for HND final year&#39;s graphics programming subject." />
-  	<meta property="og:type" content="article" />
+    <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2006-08-30T03:45:00&#43;02:00" />
 
-    
-    
+
+
 
     <title>Custom OpenGL C&#43;&#43; Engine &middot; Alvaro De Cubas</title>
 
-    
+
     <meta name="description" content="Rendering engine for HND final year&#39;s graphics programming subject." />
-    
+
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="https://avilapa.github.io/images/favicon.ico">
-	  <link rel="apple-touch-icon" href="https://avilapa.github.io/images/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="https://decubas.github.io/images/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://decubas.github.io/css/screen.css" />
     <link rel="stylesheet" type="text/css" href="https://decubas.github.io/css/nav.css" />
 
-    
 
-    
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/vs.min.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-        
-        <script>hljs.initHighlightingOnLoad();</script>
-    
 
-    
-        <link href="http://feeds.feedburner.com/..." rel="alternate" type="application/rss+xml" title="Víctor Ávila" />
-    
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/vs.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+    <link href="http://feeds.feedburner.com/..." rel="alternate" type="application/rss+xml" title="Víctor Ávila" />
+
     <meta name="generator" content="Hugo 0.51" />
 
     <link rel="canonical" href="https://decubas.github.io/CoffeeEngine/" />
 
-    
-      
-    
+
+
+
     <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "publisher": {
-        "@type": "Organization",
-        "name": ,
-        "logo": https://decubas.github.io/images/logo.png
-    },
-    "author": {
-        "@type": "Person",
-        "name": ,
-        
-        "image": {
-            "@type": "ImageObject",
-            "url": https://decubas.github.io/images/logo.png,
-            "width": 250,
-            "height": 250
-        }, 
-        
-        "url": http://decubas.github.io,
-        "sameAs": [
-            
-            
-             
-             
-             
-             
-             
-            
-        ],
-        "description": Games programmer and computer graphics enthusiast
-        
-    },
-    "headline": Custom OpenGL C&#43;&#43; Engine,
-    "name": Custom OpenGL C&#43;&#43; Engine,
-    "wordCount": 140,
-    "timeRequired": "PT1M",
-    "inLanguage": {
-      "@type": "Language",
-      "alternateName": en
-    },
-    "url": https://decubas.github.io/CoffeeEngine/,
-    "datePublished": 2006-08-30T03:45Z,
-    "dateModified": 2006-08-30T03:45Z,
-    
-    "image": {
-        "@type": "ImageObject",
-        "url": https://avilapa.github.io/images/cover-render-engine.png,
-        "width": 3000,
-        "height": 1445
-    },
-    
-    
-    "description": Rendering engine for HND final year&#39;s graphics programming subject.,
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": https://decubas.github.io/CoffeeEngine/
-    }
-}
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "publisher": {
+                "@type": "Organization",
+                "name": ,
+                "logo": https://decubas.github.io/images/logo.png
+            },
+            "author": {
+                "@type": "Person",
+                "name": ,
+
+                "image": {
+                    "@type": "ImageObject",
+                    "url": https://decubas.github.io/images/logo.png,
+                    "width": 500,
+                    "height": 500
+                },
+
+                "url": http://decubas.github.io,
+                "sameAs": [
+
+
+
+
+
+
+
+
+                ],
+                "description": Games programmer and computer graphics enthusiast
+
+            },
+            "headline": Custom OpenGL C&#43;&#43; Engine,
+            "name": Custom OpenGL C&#43;&#43; Engine,
+            "wordCount": 140,
+            "timeRequired": "PT1M",
+            "inLanguage": {
+              "@type": "Language",
+              "alternateName": en
+            },
+            "url": https://decubas.github.io/CoffeeEngine/,
+            "datePublished": 2006-08-30T03:45Z,
+            "dateModified": 2006-08-30T03:45Z,
+
+            "image": {
+                "@type": "ImageObject",
+                "url": https://decubas.github.io/images/cover-render-engine.png,
+                "width": 3000,
+                "height": 1445
+            },
+
+
+            "description": Rendering engine for HND final year&#39;s graphics programming subject.,
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": https://decubas.github.io/CoffeeEngine/
+            }
+        }
     </script>
-    
 
 
-    
 
-    
+
+
+
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-118883750-1', 'auto');
-      ga('send', 'pageview');
+        ga('create', 'UA-118883750-1', 'auto');
+        ga('send', 'pageview');
 
     </script>
-    
 
-    
+
+
 </head>
 <body class="nav-closed">
 
-  <div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="#" class="nav-close">
-        <span class="hidden">Close</span>
-    </a>
-    <ul>
-        
-        
-        
-            <h3>avilapa</h3>
-            <li class="nav-opened" role="presentation">
-            	<a href="https://avilapa.github.io/about">About Me</a>
+    <div class="nav">
+        <h3 class="nav-title">Menu</h3>
+        <a href="#" class="nav-close">
+            <span class="hidden">Close</span>
+        </a>
+        <ul>
+
+
+
+            <h3>decubas</h3>
+
+
+
+            <li class="nav-opened nav-current" role="presentation">
+                <a href="https://decubas.github.io/">Blog</a>
             </li>
-        
-            
-            <li class="nav-opened" role="presentation">
-            	<a href="https://avilapa.github.io/portfolio">Portfolio</a>
-            </li>
-        
-            
-            <li class="nav-opened" role="presentation">
-            	<a href="https://avilapa.github.io/resume/resume_cv.pdf">Resume</a>
-            </li>
-        
-            
-            <li class="nav-opened" role="presentation">
-            	<a href="https://decubas.github.io/">Blog</a>
-            </li>
-        
+
             <h3>Projects</h3>
             <li class="nav-opened" role="presentation">
-            	<a href="https://avilapa.github.io/fuel-renegades">Fuel Renegades</a>
+                <a href="https://decubas.github.io/">Sun Warriors (TODO)</a>
             </li>
-        
-            
+
+
             <li class="nav-opened" role="presentation">
-            	<a href="https://decubas.github.io/CoffeeEngine">Custom Engine</a>
-            </li>
-        
-        
-    </ul>
-
-    
-    <a class="subscribe-button icon-feed" href="http://feeds.feedburner.com/...">Subscribe</a> </div>
-    
-</div>
-<span class="nav-cover"></span>
+                <a href="https://decubas.github.io/CoffeeEngine">Custom Engine</a>
+            </li>>
 
 
- <div class="site-wrapper">
+        </ul>
 
 
-
-
-  
-  <header class="main-header post-head" style="background-image: url(/images/cover-render-engine.png)">
-  
-  <nav class="main-nav overlay clearfix">
-
-
-      
-        <a class="blog-logo" href="https://avilapa.github.io/"><img src="https://avilapa.github.io/images/logo-large.png" alt="Home" /></a>
-      
-      
-          <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
-      
-    </nav>
-
-
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">Custom OpenGL C&#43;&#43; Engine</h1>
-            <h2 class="page-description">
-                
-                    Rendering engine for HND final year&#39;s graphics programming subject.
-                
-            </h2>
-        </div>
+        <a class="subscribe-button icon-feed" href="http://feeds.feedburner.com/...">Subscribe</a>
     </div>
 
-
-
-</header>
-
-
-
-<main class="content" role="main">
-
-
-
-
-  <article class="post ">
-    <header class="post-header">
-
-        <section class="post-meta">
-        
-         
-        </section>
-    </header>
-
-    <section class="post-content">
-
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J9CExYF8yrU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<h3 id="the-engine">The Engine</h3>
-
-<p align="justify">
-This is an <b>OpenGL</b> and <b>C++</b> rendering engine I made in my final HND year at <a href="https://www.esat.es/" target="_blank">ESAT Valencia</a> for the graphics programming subject. Its main features are the following:
-</p>
-
-<ul>
-<li>Multithreaded agnostical graphics API</li>
-<li>Component oriented engine</li>
-<li>Physically Based Rendering techniques:
-
-<ul>
-<li>Material pipeline (PBS, Metallic/Roughness workflow)</li>
-<li>Image Based Lighting (Radiance and Irradiance environment mapping)</li>
-<li>Atmospheric Scattering (Rayleigh and Mie Scattering)</li>
-</ul></li>
-<li>GLTF model loading</li>
-<li>Postprocessing Pipeline:
-
-<ul>
-<li>Screen Space Ambient Occlusion (SSAO)</li>
-<li>Bloom</li>
-<li>Light Scattering (God Rays)</li>
-<li>Shadow Mapping</li>
-<li>Fast Approximate Anti-Aliasing (FXAA)</li>
-<li>Lens Distortion (with Grain, Vignette, Color Aberration)</li>
-<li>Tonemapping and multiple one-pass filters</li>
-</ul></li>
-<li>Procedural generation of infinite voxel worlds</li>
-<li>UI integration (ImGui)</li>
-<li>Sound integration (OpenAL)</li>
-<li>Physics integration (Bullet Physics)</li>
-</ul>
-
-<hr />
-
-<h3 id="related-blog-posts">Related blog posts</h3>
-
-<blockquote>
-<h3 id="custom-engine-physically-based-rendering-1"><a href="https://avilapa.github.io/post/custom-engine-pbr/">Custom Engine: Physically Based Rendering</a></h3>
-
-<p>The physically based approach used for my custom rendering engine.
-  <br><small><b>Víctor Ávila</b></small></p>
-</blockquote>
-
-<p></p>
-
-<blockquote>
-<h3 id="custom-engine-postprocessing-2"><a href="https://avilapa.github.io/post/custom-engine-postprocessing/">Custom Engine: Postprocessing</a></h3>
-
-<p>My custom engine&rsquo;s postprocessing.
-  <br><small><b>Víctor Ávila</b></small></p>
-</blockquote>
-
-<p></p>
-
-<hr />
-
-<h3 id="gallery">Gallery</h3>
-
-<p><img src="https://avilapa.github.io/content/images/2018/aug/upydk/upydk_1.png", width="100%"/>
-<img src="https://avilapa.github.io/content/images/2018/aug/upydk/upydk_2.png", width="100%"/>
-<img src="https://avilapa.github.io/content/images/2018/aug/upydk/upydk_3.png", width="100%"/>
-<img src="https://avilapa.github.io/content/images/2018/aug/upydk/upydk_4.png", width="100%"/>
-<img src="https://avilapa.github.io/content/images/2018/aug/upydk/upydk_5.png", width="100%"/></p>
-
-
-
-
-<nav class="navpage">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</nav>
-
-
-    </section>
-
-
-  <footer class="post-footer">
-
-
-    
-    <figure class="author-image">
-        <a class="img" href="https://avilapa.github.io/" style="background-image: url(/images/logo-large.png)"><span class="hidden">Víctor Ávila Parcet's Picture</span></a>
-    </figure>
-    
-
-    
-
-
-
-
-
-
-
-
-<figure class="author-image">
-    <a class="img" href="https://avilapa.github.io/" style="background-image: url(/images/logo-large.png)"><span class="hidden">Víctor Ávila Parcet's Picture</span></a>
-</figure>
-
-
-<section class="author">
-  <h4><a href="https://avilapa.github.io/">Víctor Ávila Parcet</a></h4>
-  
-  <p>Games programmer and computer graphics enthusiast</p>
-  
-  <div class="author-meta">
-    <span class="author-location icon-location">Valencia, Spain</span>
-    <span class="author-link icon-link"><a href="http://avilapa.github.io">http://avilapa.github.io</a></span>
-  </div>
-</section>
-
-
-
-
-    
-<section class="share">
-  <h4>Share this page</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Custom%20OpenGL%20C%2b%2b%20Engine&nbsp;-&nbsp;V%c3%adctor%20%c3%81vila&amp;url=https%3a%2f%2favilapa.github.io%2frender-engine%2f"
-      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-      <span class="hidden">Twitter</span>
-  </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2favilapa.github.io%2frender-engine%2f"
-      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-      <span class="hidden">Facebook</span>
-  </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2favilapa.github.io%2frender-engine%2f&amp;description=Custom%20OpenGL%20C%2b%2b%20Engine"
-      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-      <span class="hidden">Pinterest</span>
-  </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2favilapa.github.io%2frender-engine%2f"
-     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-      <span class="hidden">Google+</span>
-  </a>
-</section>
-
-
-
-    
-
-
-
-
-
-  </footer>
-</article>
-
-</main>
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">Víctor Ávila</a> All rights reserved - 2018</section>
-        
-    </footer>
     </div>
-    <script type="text/javascript" src="https://avilapa.github.io/js/jquery.js"></script>
-    <script type="text/javascript" src="https://avilapa.github.io/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://avilapa.github.io/js/index.js"></script>
-    
+    <span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+
+
+
+        <header class="main-header" style="background-image: url(/images/cover-engine-dark.png)">
+
+
+
+            <nav class="main-nav overlay clearfix">
+
+                <a class="blog-logo" href="https://decubas.github.io/"><img src="https://decubas.github.io/images/logo.png" alt="Blog Logo" /></a>
+
+
+                <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+
+            </nav>
+            <div class="vertical">
+                <div class="main-header-content inner">
+
+                    <a class="bloglogo" href="https://www.linkedin.com/in/alvaro-de-cubas-yarza-26a661151" target="_blank">
+                        <span class="icon-linkedin" style="color:white;font-size:2em"></span>
+                    </a>
+                    &nbsp;
+
+
+
+                    <a class="bloglogo" href="https://github.com/decubas" target="_blank">
+                        <span class="icon-github" style="color:white;font-size:2em"></span>
+                    </a>
+                    &nbsp;
+
+
+
+
+
+
+
+
+
+                    <a class="bloglogo" href="https://twitter.com/decubas" target="_blank">
+                        <span class="icon-twitter" style="color:white;font-size:2em"></span>
+                    </a>
+                    &nbsp;
+
+
+
+
+
+
+
+                    <a class="bloglogo" href="mailto:alvarodecubas@gmail.com" target="_blank">
+                        <span class="icon-mail" style="color:white;font-size:2em"></span>
+                    </a>
+                    &nbsp;
+
+
+
+
+
+
+
+
+                    <h1 class="page-title">Alvaro De Cubas</h1>
+                    <h2 class="page-description">Games programmer and Game Engine enthusiast</h2>
+                </div>
+            </div>
+            <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">Scroll Down</span></a>
+        </header>
+
+
+        <main id="content" class="content" role="main">
+
+
+
+            <div class="extra-pagination inner">
+                <nav class="pagination" role="navigation">
+
+                    <span class="page-number">Page 1 of 1</span>
+
+                </nav>
+
+            </div>
+
+            <nav class="pagination" role="navigation">
+
+                <span class="page-number">Page 1 of 1</span>
+
+            </nav>
+
+
+
+        </main>
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="">Alvaro De Cubas</a> All rights reserved - 2021</section>
+
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://decubas.github.io/js/jquery.js"></script>
+    <script type="text/javascript" src="https://decubas.github.io/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://decubas.github.io/js/index.js"></script>
+
 </body>
 </html>
 
