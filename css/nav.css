@@ -38,7 +38,7 @@ nav.navpage  li {
 }
 
   nav.navpage:after {
-    content: ""; clear: both; display: block;
+    content: "."; clear: both; display: block;
   }
 
 nav.navpage  > ul >  li > a  {

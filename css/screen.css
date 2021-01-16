@@ -742,10 +742,9 @@ body.nav-opened .nav {
     text-overflow: ellipsis;
 }
 .nav li a:after {
-    display: inline-block;
+    display: block;
     content: " .......................................................";
     color: rgba(255,255,255,0.2);
-    margin-left: 5px;
 }
 .nav .nav-current:before {
     color: #fff;
