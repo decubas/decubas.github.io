@@ -243,64 +243,85 @@
 
                 <section class="post-content">
 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JhQ7GVCyxx8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
                     <p align="justify">
                         I made this engine in my final HND year at <a href="https://www.esat.es/" target="_blank">ESAT Valencia</a> for the graphics programming subject.
                         Its main features are the following:
                     </p>
-
-
                     <ul>
-                        <li>Multithreaded agnostical graphics API</li>
-                        <li>Entity Component oriented engine</li>
-                        <li>Model loading</li>
+                        <li>Multithreaded</li>
                         <li>
-                            Postprocessing Pipeline:
+                            Lights
                             <ul>
-                                <li>Bloom</li>
-                                <li>Shadow Mapping</li>
-                            </ul>
-                        </li>
-                        <li>UI integration (ImGui)</li>
-                    </ul>
-
-                    <p align="justify">
-                        This Engine is currently en development, adding new features and rendering technics.
-                    </p>
-                    <p align="justify">
-                        <b>Goals:</b>
-                    </p>
-                    <ul>
-                        <li>C# Scripting</li>
-                        <li>DirectX 12 integration</li>
-                        <li>
-                            Physically Based Rendering techniques:
-
-                            <ul>
-                                <li>Material pipeline (PBS, Metallic/Roughness workflow)</li>
-                                <li>Image Based Lighting (Radiance and Irradiance environment mapping)</li>
-                                <li>Atmospheric Scattering (Rayleigh and Mie Scattering)</li>
+                                <li>Directional</li>
+                                <li>Spot</li>
+                                <li>Point</li>
                             </ul>
                         </li>
                         <li>
-                            Postprocessing Pipeline:
-
+                            Shadows - 4 shadows per entity from Directional or Spot lights
                             <ul>
-                                <li>Screen Space Ambient Occlusion (SSAO)</li>
-                                <li>Light Scattering (God Rays)</li>
-                                <li>Fast Approximate Anti-Aliasing (FXAA)</li>
-                                <li>Lens Distortion (with Grain, Vignette, Color Aberration)</li>
-                                <li>Tonemapping and multiple one-pass filters</li>
+                                <li>Blur</li>
+                                <li>Inversion</li>
+                                <li>Gray scale</li>
+                                <li>Color Sharpen</li>
+                                <li>Edge detection</li>
                             </ul>
                         </li>
-                        <li>Sound integration (OpenAL)</li>
-                        <li>Physics integration (Nvidia PhysX)</li>
-                    </ul>
-                    <hr />
+                        <li>Log - with spdlog in the console</li>
+                        <li>Editor - Using ImGui</li>
+                        <li>Entity Inspector - Property modifier for each entity</li>
+                        <li>Scene management</li>
+                        <li>Scene hierarchy</li>
+                        <li>Pools - allocation and management of memory</li>
+                        <li>Scripting - Lua</li>
+                        <li>FPS clock - using sokol_time</li>
+                        <li>Multithread - using px_schd</li>
+                        <li>Model conversion to our own CFasset type and obj loader using Assimp</li>
+                        <li>Materials</li>
+                        <li>Material instance</li>
+                        <li>Texture loading</li>
+
+                        <p align="justify">
+                            This Engine is currently en development, adding new features and rendering technics.
+                        </p>
+                        <p align="justify">
+                            <b>Goals:</b>
+                        </p>
+                        <ul>
+                            <li>C# Scripting</li>
+                            <li>DirectX 12 integration</li>
+                            <li>
+                                Physically Based Rendering techniques:
+
+                                <ul>
+                                    <li>Material pipeline (PBS, Metallic/Roughness workflow)</li>
+                                    <li>Image Based Lighting (Radiance and Irradiance environment mapping)</li>
+                                    <li>Atmospheric Scattering (Rayleigh and Mie Scattering)</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Postprocessing Pipeline:
+
+                                <ul>
+                                    <li>Screen Space Ambient Occlusion (SSAO)</li>
+                                    <li>Light Scattering (God Rays)</li>
+                                    <li>Fast Approximate Anti-Aliasing (FXAA)</li>
+                                    <li>Lens Distortion (with Grain, Vignette, Color Aberration)</li>
+                                    <li>Tonemapping and multiple one-pass filters</li>
+                                </ul>
+                            </li>
+                            <li>Sound integration (OpenAL)</li>
+                            <li>Physics integration (Nvidia PhysX)</li>
+                        </ul>
+                        <hr />
 
 
 
 
-                </section>
+</section>
 
                 <footer class="post-footer">
                     <figure class="author-image">
