@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Speedball gameplay programmer Alvaro De Cubas worked closely with the design team on the high-speed arena sport." />
+    <meta property="og:title" content="Speedball - Gameplay Programming | Alvaro De Cubas" />
+    <meta property="og:description" content="Gameplay programming on Speedball, working closely with the design team." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://decubas.github.io/Speedball/" />
+    <meta name="twitter:card" content="summary" />
+    <title>Speedball - Gameplay Programming | Alvaro De Cubas</title>
+    <link rel="icon" href="../images/logo-white.png" type="image/png" />
+    <link rel="stylesheet" href="../css/portfolio.css" />
+</head>
+<body class="portfolio-home portfolio-project">
+    <div class="site-wrapper">
+        <nav class="main-nav site-topbar" aria-label="Main navigation">
+            <div class="topbar-inner">
+                <a class="blog-logo" href="../" aria-label="Alvaro De Cubas portfolio home"><img src="../images/logo-white.png" alt="" /></a>
+                <button class="menu-button" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation">
+                    <span class="menu-icon" aria-hidden="true"><span></span></span><span class="menu-label">Menu</span>
+                </button>
+                <ul class="site-links" id="site-navigation">
+                    <li><a href="../#projects">Projects</a></li>
+                    <li><a href="../AboutMe/">About</a></li>
+                    <li><a href="../docs/decubas_cv.pdf">Resume</a></li>
+                    <li class="mobile-contact"><a href="mailto:alvarodecubas@gmail.com">Get in touch <span aria-hidden="true">&nearr;</span></a></li>
+                </ul>
+                <a class="topbar-contact" href="mailto:alvarodecubas@gmail.com">Let's talk <span aria-hidden="true">&nearr;</span></a>
+            </div>
+        </nav>
+
+        <header class="main-header project-hero">
+            <div class="vertical">
+                <div class="main-header-content inner project-hero-copy">
+                    <p class="hero-eyebrow">Gameplay programming · Sports</p>
+                    <h1 class="page-title">Speedball</h1>
+                    <p class="page-description">A high-speed, full-contact arena sport set in a brutal future.</p>
+                </div>
+            </div>
+        </header>
+
+        <main class="content" role="main">
+            <article class="post">
+                <section class="post-content">
+                    <p>I worked on <em>Speedball</em> as a gameplay programmer, collaborating closely with the design team.</p>
+
+                    <h2>Launch Trailer</h2>
+                    <video id="speedball-trailer" controls playsinline preload="metadata" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257273866/0d900e49f92f47fe86bf8cbc43461e42be4f9cb6/movie_600x337.jpg?t=1769523931" aria-label="Speedball official launch trailer">
+                        Your browser does not support embedded video. <a href="https://store.steampowered.com/app/1795190/Speedball/">Watch Speedball on Steam</a>.
+                    </video>
+                    <p class="trailer-note">Official launch trailer hosted by Steam. <a href="https://store.steampowered.com/app/1795190/Speedball/" target="_blank" rel="noopener noreferrer">Visit Speedball on Steam <span aria-hidden="true">&nearr;</span></a></p>
+                </section>
+            </article>
+        </main>
+
+        <footer class="site-footer clearfix">
+            <section class="copyright">&copy; <span id="copyright-year">2026</span> Alvaro De Cubas <span class="footer-note">Based in Wakefield, UK.</span></section>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script>
+    <script>
+        const trailer = document.getElementById("speedball-trailer");
+        const trailerStream = "https://video.akamai.steamstatic.com/store_trailers/1795190/1362765792/1772beb1146d72e476fe713fbd3bd71fae8ccf27/1769523431/hls_264_master.m3u8?t=1769523931";
+        if (trailer.canPlayType("application/vnd.apple.mpegurl")) {
+            trailer.src = trailerStream;
+        } else if (window.Hls && Hls.isSupported()) {
+            const player = new Hls();
+            player.loadSource(trailerStream);
+            player.attachMedia(trailer);
+        } else {
+            trailer.insertAdjacentHTML("afterend", '<p class="trailer-note">Embedded playback is not supported in this browser. <a href="https://store.steampowered.com/app/1795190/Speedball/">Watch the trailer on Steam.</a></p>');
+        }
+    </script>
+    <script src="../js/portfolio.js"></script>
+</body>
+</html>

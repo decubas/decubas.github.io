@@ -9,6 +9,8 @@ Personal portfolio for Wakefield-based game programmer Alvaro De Cubas, focused 
 The homepage highlights selected work and links to project pages for:
 
 - Sun Warriors - Unreal Engine game development and visual effects
+- Speedball - gameplay programming in collaboration with the design team
+- Red Dead Redemption - contributed to the Nintendo Switch 2 edition
 - Coffee Engine - C++ and OpenGL rendering engine
 - Unleveled - procedural dungeon-crawler demo
 - Team Squad AI - Unity game AI project
