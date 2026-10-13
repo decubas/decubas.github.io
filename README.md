@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Alvaro De Cubas - Portfolio
 
-You can use the [editor on GitHub](https://github.com/decubas/decubas.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Personal portfolio for game programming, graphics, and game technology projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Live site:** [decubas.github.io](https://decubas.github.io/)
 
-### Markdown
+## Projects
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The homepage highlights selected work and links to project pages for:
 
-```markdown
-Syntax highlighted code block
+- Sun Warriors - Unreal Engine game development and visual effects
+- Coffee Engine - C++ and OpenGL rendering engine
+- Unleveled - procedural dungeon-crawler demo
+- Team Squad AI - Unity game AI project
 
-# Header 1
-## Header 2
-### Header 3
+The site also includes an about page, résumé, demos, and smaller programming experiments.
 
-- Bulleted
-- List
+## Preview locally
 
-1. Numbered
-2. List
+This is a static site. From the repository root, run:
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+python -m http.server 8000
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then open [localhost:8000](http://localhost:8000). Homepage styles and scripts load from this checkout; project-page links point to the published site.
 
-### Jekyll Themes
+## Deployment
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/decubas/decubas.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+GitHub Pages publishes the site from this repository. The homepage is `index.html`; its portfolio-specific styles and menu behavior are in `css/portfolio.css` and `js/portfolio.js`.
