@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <link rel="shortcut icon" href="http://www.iconj.com/ico/w/o/woki3ujevy.ico" type="image/x-icon" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -14,12 +13,13 @@
 
 
 
-    <meta name="twitter:title" content="Unleveled UE4" />
+    <meta name="twitter:title" content="Unleveled - Procedural Dungeon Crawler" />
+    <meta name="twitter:description" content="A C++ dungeon crawler demo with procedurally generated levels and RPG-inspired progression." />
     <meta name="twitter:site" content="@decubas_" />
 
 
 
-    <meta property="og:title" content="Unleveled UE4 &middot; Alvaro De Cubas" />
+    <meta property="og:title" content="Unleveled &middot; Alvaro De Cubas" />
     <meta property="og:site_name" content="Alvaro De Cubas" />
     <meta property="og:url" content="https://decubas.github.io/Unleveled/" />
 
@@ -28,34 +28,24 @@
 
 
 
-    <meta property="og:description" content="UE4 demo game with C++." />
+    <meta property="og:description" content="A C++ dungeon crawler demo with procedurally generated levels and RPG-inspired progression." />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="20019-07-30T03:45:00&#43;00:00" />
 
 
 
 
-    <title>Capture the Flag</title>
+    <title>Unleveled - Procedural Dungeon Crawler</title>
 
 
-    <meta name="description" content="UE4 demo game with C++." />
+    <meta name="description" content="A C++ dungeon crawler demo with procedurally generated levels and RPG-inspired progression." />
 
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="https://decubas.github.io/images/logo-white.png">
-
-    <link rel="stylesheet" type="text/css" href="https://decubas.github.io/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="https://decubas.github.io/css/nav.css" />
-
-
-
-
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/vs.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-
-    <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="icon" href="../images/logo-white.png" type="image/png" />
+    <link rel="stylesheet" href="../css/portfolio.css" />
 
 
 
@@ -153,82 +143,29 @@
 
 
 </head>
-<body class="nav-closed">
-
-    <div class="nav">
-        <h3 class="nav-title">Menu</h3>
-        <a href="#" class="nav-close">
-            <span class="hidden">Close</span>
-        </a>
-        <ul>
-
-
-
-            <h3>decubas</h3>
-
-            <li class="nav-opened " role="presentation">
-                <a href="https://decubas.github.io/AboutMe">About Me</a>
-            </li>
-
-
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/docs/decubas_cv.pdf">Resume</a>
-            </li>
-
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/">Portfolio</a>
-            </li>
-
-            <h3>Projects</h3>
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/SunWarriors">Sun Warriors</a>
-            </li>
-
-
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/CoffeeEngine">Custom Engine</a>
-            </li>
-
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/CaptureTheFlag">Team Squad AI</a>
-            </li>
-
-            <li class="nav-opened nav-current" role="presentation">
-                <a href="https://decubas.github.io/Unleveled">Unleveled</a>
-            </li>
-
-
-        </ul>
-
-
-    </div>
-
-    <span class="nav-cover"></span>
-
-
+<body class="portfolio-home portfolio-project">
     <div class="site-wrapper">
-
-
-
-
-        <header class="main-header" style="background-image: url(/images/unleveled.png)">
-
-
-
-            <nav class="main-nav overlay clearfix">
-
-                <a class="blog-logo" href="https://decubas.github.io/"><img src="https://decubas.github.io/images/logo-white.png" alt="Blog Logo" /></a>
-
-
-                <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
-
-            </nav>
+        <nav class="main-nav site-topbar" aria-label="Main navigation">
+            <div class="topbar-inner">
+                <a class="blog-logo" href="../" aria-label="Alvaro De Cubas portfolio home"><img src="../images/logo-white.png" alt="" /></a>
+                <button class="menu-button" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation">
+                    <span class="menu-icon" aria-hidden="true"><span></span></span><span class="menu-label">Menu</span>
+                </button>
+                <ul class="site-links" id="site-navigation">
+                    <li><a href="../#projects">Projects</a></li>
+                    <li><a href="../AboutMe/">About</a></li>
+                    <li><a href="../docs/decubas_cv.pdf">Resume</a></li>
+                    <li class="mobile-contact"><a href="mailto:alvarodecubas@gmail.com">Get in touch <span aria-hidden="true">&nearr;</span></a></li>
+                </ul>
+                <a class="topbar-contact" href="mailto:alvarodecubas@gmail.com">Let's talk <span aria-hidden="true">&nearr;</span></a>
+            </div>
+        </nav>
+        <header class="main-header project-hero">
             <div class="vertical">
-                <div class="main-header-content inner">
-
+                <div class="main-header-content inner project-hero-copy">
+                    <p class="hero-eyebrow">Procedural gameplay · Unreal Engine 4</p>
                     <h1 class="page-title">Unleveled</h1>
-                    <h2 class="page-description"><b>Unleveled</b> UE4 C++ demo game</h2>
-
+                    <p class="page-description">A C++ dungeon crawler demo with randomly generated levels and RPG-inspired progression.</p>
                 </div>
             </div>
         </header>
@@ -250,7 +187,7 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/nT3rxxg-TF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <p align="justify">
-                        Unleveled is a hardcore dungeon crawler based rpg, randomly generated levels and rpg-like features that will target people that like procedurally generated games with an added spice of difficulty. The game invites the player to progress through the world by letting it know the perils of the progressively more difficult dungeon as well as its treasures.
+                        Unleveled is a challenging dungeon crawler built around procedurally generated levels and RPG-inspired progression. It invites players to explore increasingly dangerous dungeons and weigh the risks against the rewards.
                     </p>
                     <a href="https://decubas.github.io/docs/gdd.pdf">GDD</a>
                     <h3><a href="https://decubas.github.io/demos/Unleveled_Demo.zip"> Download Demo </a></h3>
@@ -269,15 +206,13 @@
 
 
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="">Alvaro De Cubas</a> All rights reserved - 2021</section>
+            <section class="copyright">&copy; <span id="copyright-year">2026</span> Alvaro De Cubas <span class="footer-note">Based in Wakefield, UK.</span></section>
 
         </footer>
     </div>
 
 
-    <script type="text/javascript" src="https://decubas.github.io/js/jquery.js"></script>
-    <script type="text/javascript" src="https://decubas.github.io/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://decubas.github.io/js/index.js"></script>
+    <script src="../js/portfolio.js"></script>
 
 </body>
 </html>

@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <link rel="shortcut icon" href="http://www.iconj.com/ico/w/o/woki3ujevy.ico" type="image/x-icon" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -14,13 +13,13 @@
 
 
 
-    <meta name="twitter:title" content="Custom OpenGL C&#43;&#43; Engine" />
-    <meta name="twitter:description" content="Rendering engine for HND final year&#39;s graphics programming subject." />
+    <meta name="twitter:title" content="Coffee Engine - C++ and OpenGL Renderer" />
+    <meta name="twitter:description" content="A custom, multithreaded rendering engine built with OpenGL and C++." />
     <meta name="twitter:site" content="@decubas_" />
 
 
 
-    <meta property="og:title" content="Custom OpenGL C&#43;&#43; Engine &middot; Alvaro De Cubas" />
+    <meta property="og:title" content="Coffee Engine &middot; Alvaro De Cubas" />
     <meta property="og:site_name" content="Alvaro De Cubas" />
     <meta property="og:url" content="https://decubas.github.io/CoffeeEngine/" />
 
@@ -29,34 +28,24 @@
 
 
 
-    <meta property="og:description" content="Rendering engine for HND final year&#39;s graphics programming subject." />
+    <meta property="og:description" content="A custom, multithreaded rendering engine built with OpenGL and C++." />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="20019-07-30T03:45:00&#43;00:00" />
 
 
 
 
-    <title>Custom OpenGL C&#43;&#43; Engine &middot; Alvaro De Cubas</title>
+    <title>Coffee Engine - C++ and OpenGL Renderer</title>
 
 
-    <meta name="description" content="Rendering engine for HND final year&#39;s graphics programming subject." />
+    <meta name="description" content="A custom, multithreaded rendering engine built with OpenGL and C++." />
 
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="https://decubas.github.io/images/logo-white.png">
-
-    <link rel="stylesheet" type="text/css" href="https://decubas.github.io/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="https://decubas.github.io/css/nav.css" />
-
-
-
-
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/vs.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-
-    <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="icon" href="../images/logo-white.png" type="image/png" />
+    <link rel="stylesheet" href="../css/portfolio.css" />
 
 
 
@@ -154,80 +143,29 @@
 
 
 </head>
-<body class="nav-closed">
-
-    <div class="nav">
-        <h3 class="nav-title">Menu</h3>
-        <a href="#" class="nav-close">
-            <span class="hidden">Close</span>
-        </a>
-        <ul>
-
-
-
-            <h3>decubas</h3>
-
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/AboutMe">About Me</a>
-            </li>
-
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/docs/decubas_cv.pdf">Resume</a>
-            </li>
-
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/">Portfolio</a>
-            </li>
-
-            <h3>Projects</h3>
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/SunWarriors">Sun Warriors</a>
-            </li>
-
-
-            <li class="nav-opened nav-current" role="presentation">
-                <a href="https://decubas.github.io/CoffeeEngine">Custom Engine</a>
-            </li>
-
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/CaptureTheFlag">Team Squad AI</a>
-            </li>
-
-            <li class="nav-opened" role="presentation">
-                <a href="https://decubas.github.io/Unleveled">Unleveled</a>
-            </li>
-
-        </ul>
-
-
-    </div>
-
-    <span class="nav-cover"></span>
-
-
+<body class="portfolio-home portfolio-project">
     <div class="site-wrapper">
-
-
-
-
-        <header class="main-header post-head" style="background-image: url(/images/coffee_engine.png)">
-
-
-
-            <nav class="main-nav overlay clearfix">
-
-                <a class="blog-logo" href="https://decubas.github.io/"><img src="https://decubas.github.io/images/logo-white.png" alt="Blog Logo" /></a>
-
-
-                <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
-
-            </nav>
+        <nav class="main-nav site-topbar" aria-label="Main navigation">
+            <div class="topbar-inner">
+                <a class="blog-logo" href="../" aria-label="Alvaro De Cubas portfolio home"><img src="../images/logo-white.png" alt="" /></a>
+                <button class="menu-button" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation">
+                    <span class="menu-icon" aria-hidden="true"><span></span></span><span class="menu-label">Menu</span>
+                </button>
+                <ul class="site-links" id="site-navigation">
+                    <li><a href="../#projects">Projects</a></li>
+                    <li><a href="../AboutMe/">About</a></li>
+                    <li><a href="../docs/decubas_cv.pdf">Resume</a></li>
+                    <li class="mobile-contact"><a href="mailto:alvarodecubas@gmail.com">Get in touch <span aria-hidden="true">&nearr;</span></a></li>
+                </ul>
+                <a class="topbar-contact" href="mailto:alvarodecubas@gmail.com">Let's talk <span aria-hidden="true">&nearr;</span></a>
+            </div>
+        </nav>
+        <header class="main-header project-hero">
             <div class="vertical">
-                <div class="main-header-content inner">
-
+                <div class="main-header-content inner project-hero-copy">
+                    <p class="hero-eyebrow">Graphics programming · C++</p>
                     <h1 class="page-title">Coffee Engine</h1>
-                    <h2 class="page-description"><b>OpenGL</b> and <b>C++</b> Render Engine</h2>
-
+                    <p class="page-description">A custom, multithreaded rendering engine built with OpenGL and C++.</p>
                 </div>
             </div>
         </header>
@@ -294,10 +232,7 @@
                         <li>Texture loading</li>
 
                         <p align="justify">
-                            This Engine is currently en development, adding new features and rendering technics.
-                        </p>
-                        <p align="justify">
-                            <b>Goals:</b>
+                            <b>Planned extensions:</b>
                         </p>
                         <ul>
                             <li>C# Scripting</li>
@@ -344,15 +279,13 @@
 
 
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="">Alvaro De Cubas</a> All rights reserved - 2021</section>
+            <section class="copyright">&copy; <span id="copyright-year">2026</span> Alvaro De Cubas <span class="footer-note">Based in Wakefield, UK.</span></section>
 
         </footer>
     </div>
 
 
-    <script type="text/javascript" src="https://decubas.github.io/js/jquery.js"></script>
-    <script type="text/javascript" src="https://decubas.github.io/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://decubas.github.io/js/index.js"></script>
+    <script src="../js/portfolio.js"></script>
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 # Alvaro De Cubas - Portfolio
 
-Personal portfolio for game programming, graphics, and game technology projects.
+Personal portfolio for Wakefield-based game programmer Alvaro De Cubas, focused on console porting and game technology. Recent work includes the Nintendo Switch 2 port of *Red Dead Redemption* and another AAA Switch 2 port.
 
 **Live site:** [decubas.github.io](https://decubas.github.io/)
 
